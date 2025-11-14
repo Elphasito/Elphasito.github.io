@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my portfolio</title>
      <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="media.css">
 </head>
 <body> 
 <nav id="desktop-nav">
     <div class="logo">Elphas Otiende</div>
     <div>
         <ul class="nav-links">
+            <li><a href="/">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <!-- <li><a href="#contact">Contact</a></li> -->
         </ul>
     </div>
 
@@ -29,14 +30,11 @@
             <span></span>  
             <span></span>  
         </div>
-        <div class="menu-links">
-        <ul>
+        <div class="menu-links">        
             <li><a href="#about" onclick="toggleMenu()">About</a></li>
             <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
             <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-            <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>
-        </ul>
-
+            <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>        
         </div>
 
     </div>
@@ -67,6 +65,7 @@
        <div id="socials-container">
         <img src="./assets/linkedin.png" alt="My linkedin profile" 
         class="icon" onclick="location.href='https://www.linkedin.com/in/elphas-otiende-725a97318'">
+        
         <img src="./assets/github.png" alt="My github profile" 
         class="icon" onclick="location.href='https: //github.com/Elphasito/'">
        </div>
@@ -97,33 +96,22 @@
                     alt="Education icon"
                     class="icon"/>
                     <h3>Education</h3>
-                    <p>B.Sc. Bachelors Degree<br/>In computer Science</p>
+                    <p>B.Sc. Bachelors Degree<br/>In Computer Science</p>
                 </div>
 
             </div>
             <div class="text-container">
                 <p>
-                   Hi there! I’m a computer science graduate with a passion for web development and creating digital 
-                    experiences that are both functional and enjoyable to use.
-                    I love bringing ideas to life on the web — from designing intuitive layouts to building responsive, user-friendly interfaces.
-
-                    <br/>               
-                    
-                    My background in computer science gives me a strong foundation in problem-solving and logical thinking,
-                    which I combine with creativity to craft clean, 
-                    efficient code. I enjoy learning new technologies and keeping up with the ever-evolving world of web development
-                    — there’s always something new to explore!
-
-                    <br/>
-                    When I’m not coding, you can usually find me experimenting with new tools,
-                    improving existing projects, or reading up on the latest tech trends. I’m always excited to take
-                    on new challenges and collaborate with others who share a passion for creating great web experiences.
+                   I’m a computer science graduate with a real passion for web
+                    development and creating digital experiences that are both 
+                    functional and enjoyable. I love turning ideas into responsive,
+                     user-friendly websites and take pride in writing clean, efficient 
+                     code that brings those ideas to life. I’m always exploring new 
+                     technologies, experimenting with tools, and finding better ways 
+                     to make the web more engaging and accessible for everyone.
                 </p>
-
             </div>
-
         </div>
-
     </div>
 
     <img 
@@ -268,13 +256,13 @@
             <div class="article-container">
                 <img src="assets/project-1.png" alt="project 1" class="project-img">
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+            <h3 class="experience-sub-title project-title">Expense Tracker</h3>
             <div class="btn-container">
                 <button class="btn btn-color-2 project-btn" onclick="location.href='https: //github.com'">
                     Github
                 </button>
-                 <button class="btn btn-color-2 project-btn" onclick="location.href='https: //github.com'">
-                   Live Demo
+                 <button class="btn btn-color-2 project-btn" onclick="location.href='expense.html'">
+                   Try it
                 </button>
             </div>
         </div>
@@ -282,13 +270,13 @@
             <div class="article-container">
                 <img src="assets/project-2.png" alt="project 2" class="project-img">
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <h3 class="experience-sub-title project-title">Quiz Game</h3>
             <div class="btn-container">
                 <button class="btn btn-color-2 project-btn" onclick="location.href='https: //github.com'">
                     Github
                 </button>
-                 <button class="btn btn-color-2 project-btn" onclick="location.href='https: //github.com'">
-                   Live Demo
+                 <button class="btn btn-color-2 project-btn" onclick="location.href='quiz.html'">
+                   Try it
                 </button>
             </div>
         </div>
@@ -296,27 +284,27 @@
             <div class="article-container">
                 <img src="assets/project-3.png" alt="project 3" class="project-img">
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <h3 class="experience-sub-title project-title">Color Palette Generator</h3>
             <div class="btn-container">
                 <button class="btn btn-color-2 project-btn" onclick="location.href='https: //github.com'">
                     Github
                 </button>
-                 <button class="btn btn-color-2 project-btn" onclick="location.href='https: //github.com'">
-                   Live Demo
+                 <button class="btn btn-color-2 project-btn" onclick="location.href='colorpg.html'">
+                   Try it
                 </button>
             </div>
         </div>
      </div>
     </div>
-    <img 
+    <!-- <img 
      src="./assets/arrow.png"
      alt="arrow icon" class="icon arrow"
      onclick="location.href='./#contact'"
-     />
+     /> -->
 
 
 </section>
- <section id="contact">
+ <!-- <section id="contact">
     <p class="section__text__p1">Get in Touch</p>
     <h1 class="title">Contact Me</h1>
     <div class="contact-info-upper-container">
@@ -334,15 +322,16 @@
         </div>
     </div>
 
- </section>
+ </section> -->
  <footer>
     <nav>
         <div class="nav-links-container">
            <ul class="nav-links">
+              <li><a href="/">Home</a></li>
               <li><a href="#about">About</a></li>
-              <li><a href="#experiance">Experience</a></li>
+              <li><a href="#experience">Experience</a></li>
               <li><a href="#projects">Projects</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <!-- <li><a href="#contact">Contact</a></li> -->
            </ul>
         </div>
     </nav>
@@ -350,5 +339,4 @@
  </footer>
     <script src="script.js"></script>
 </body>
-
 </html>
